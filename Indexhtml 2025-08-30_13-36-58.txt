@@ -1,0 +1,150 @@
+```html
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>easy.com - হোম ডেকর</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #d4af37, #f6e27f);
+      color: #3a2e1f;
+    }
+    header {
+      background: rgba(58,46,31,0.9);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    .products {
+      max-width: 1100px;
+      margin: 0 auto 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+[30/08, 9:53 am] ChatGPT: .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      color: #3a2e1f;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 10px 0 5px;
+    }
+    .product-card p {
+      font-size: 14px;
+      color: #6b5e40;
+    }
+    footer {
+      background: rgba(58,46,31,0.9);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .contact-info {
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      color: #f2d13e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>easy.com</div>
+    <nav>
+      <a href="#">হোম</a>
+      <a href="#">প্রোডাক্টস</a>
+      <a href="#">সম্পর্কে</a>
+      <a href="#">যোগাযোগ</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>ঘরের সাজে সহজ সমাধান</h1>
+    <p>ম্যাট্রেস টপার, বালিশ, কুশন, বেডশীট এবং আরও অনেক হোম ডেকর আইটেম</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+[30/08, 9:53 am] ChatGPT: <img src="https://i.imgur.com/Wb1bF5p.jpg" alt="ম্যাট্রেস টপার" />
+      <h3>ম্যাট্রেস টপার</h3>
+      <p>আরামদায়ক এবং টেকসই ম্যাট্রেস টপার</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.imgur.com/qKq3d9O.jpg" alt="মাথার বালিশ" />
+      <h3>মাথার বালিশ</h3>
+      <p>স্বাস্থ্যকর এবং নরম মাথার বালিশ</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.imgur.com/Rx2hVle.jpg" alt="কোলবালিশ" />
+      <h3>কোলবালিশ</h3>
+      <p>সাজসজ্জায় পরিপূর্ণ আরামদায়ক কোলবালিশ</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.imgur.com/8pF2LgA.jpg" alt="বেডশীট" />
+      <h3>বেডশীট</h3>
+      <p>নান্দনিক ও আরামদায়ক বেডশীট</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.imgur.com/KOjeGvV.jpg" alt="কুশন বালিশ" />
+      <h3>কুশন বালিশ</h3>
+      <p>বিভিন্ন ডিজাইনের কুশন বালিশ</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.imgur.com/7hGxkkP.jpg" alt="বেড টপার" />
+      <h3>বেড টপার</h3>
+      <p>আরামদায়ক এবং টেকসই বেড টপার</p>
+    </div>
+  </section>
+
+  <footer>
+    <div>যোগাযোগ: 01648826883</div>
+    <div class="social-icons" style="margin-top:8px;">
+      <a href="https://www.facebook.com/share/177QVsUBaD/" target="_blank" aria-label="Facebook">&#x1F464;</a>
